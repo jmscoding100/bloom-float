@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/style-mpf.css"> -->
-    <link rel="stylesheet" href="css/style-postition.css">
+    <!-- <link rel="stylesheet" href="css/style-postition.css"> -->
+    <link rel="stylesheet" href="css/style-flexbox.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header" id="headerSection1">
-        <div class="container">
-            <div class="row">
+        <div class="container" id="container1">
+            <div class="row" id="headerRow">
                 <h1 class="heading">Bloom Landing Page</h1>
                 <nav class="social" id="hNav">
                     <ul class="social-link">
@@ -79,10 +80,12 @@
                 <div class="row" id="row3">
                     <div class="div-product" id="product">
                         <h3>Check out our Products!</h3>
-                        <div class="product-box" id="box1"></div>
-                        <div class="product-box" id="box2"></div>
-                        <div class="product-box" id="box3"></div>
-                        <div class="product-box" id="box4"></div>
+                        <div class="product-boxs">
+                            <div class="product-box" id="box1"></div>
+                            <div class="product-box" id="box2"></div>
+                            <div class="product-box" id="box3"></div>
+                            <div class="product-box" id="box4"></div>
+                        </div>
                         <!-- <div class="clear"></div> -->
                     </div>
                     <div class="div-client" id="review">
@@ -100,7 +103,7 @@
     </main>
     <footer class="footer" id="footerSection">
         <div class="container">
-            <div class="row">
+            <div class="row" id="footerRow">
                 <p class="footer">Copyright &copy; 2012 Bloom Web Design &middot; All right reserved</p>
             <div class="div-footer">
                 <nav class="social">
